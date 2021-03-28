@@ -37,10 +37,12 @@
 }
 
 footer {
-  padding: 15px 0 15px 0;
+  padding-top: 15px;
+  padding-bottom: 20px;
   height: 80px;
-  color:white;
+  color:black;
   text-align: center;
+  line-height: 10px;
   clear:both;
   background-color: blue;
 }
