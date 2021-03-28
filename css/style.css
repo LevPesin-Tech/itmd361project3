@@ -48,6 +48,7 @@ footer {
 }
 
 .title {
+	$random-text: 'Welcome to My Website!';
     position: relative;
     $stroke-width: $extra-large * 0.05;
     font-family: 'Pacifico', cursive;
