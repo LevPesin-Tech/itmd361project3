@@ -19,7 +19,7 @@
 
 #sidebar ul li a{
 	display: block;
-	background-color: red;
+	background-color: olive;
 	padding: 15px 0;
 	color: #fff;
 	font-weight: bold;
@@ -32,6 +32,5 @@
 }
 
 #sidebar ul li a:hover{
-	background-color: #000;
-	text-transform: uppercase;
+	text-decoration: underline; 
 }
