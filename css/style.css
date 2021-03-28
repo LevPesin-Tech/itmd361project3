@@ -46,3 +46,29 @@ footer {
   clear:both;
   background-color: blue;
 }
+
+.title {
+    position: relative;
+    $stroke-width: $extra-large * 0.05;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-size: $extra-large;
+    color: lighten($pink, 25%);
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: lighten($pink, 5%);
+    @include center;
+    text-shadow: 0 0 40px lighten($pink, 5%),
+                 0 0 40px lighten($pink, 5%),
+                 0 0 40px lighten($pink, 5%);
+    &:after {
+      content: $random-text;
+      z-index: -1;
+      position: absolute;
+      color: transparent;
+      -webkit-text-stroke-width: $stroke-width;
+      -webkit-text-stroke-color: darken($pink, 40%);
+      top: -5%;
+      left: -0.5%;
+      
+    }
+  }
