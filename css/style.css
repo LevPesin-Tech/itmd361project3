@@ -37,8 +37,8 @@
 }
 
 footer {
-  padding: 2%;
-  margin-top: 2%;
+  padding: 15px 0 15px 0;
+  height: 80px;
   color:white;
   text-align: center;
   clear:both;
