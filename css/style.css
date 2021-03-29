@@ -14,7 +14,7 @@ body {
 }
 
 #interests {
-	float: left;
+	float: right;
 	width: 250px;
 	margin: 0 20px 0 0;
 }
