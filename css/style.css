@@ -2,11 +2,20 @@ body {
 	background-color: #42F58A;
 }
 
-#header{
-	background-color: #8D42F5;
-	padding: 15px;
+header {
+	height: 100px;
+	background-color: ##f08b1f;
 	text-align: center;
 	clear: both;
+}
+
+.contain {
+	width: 960px;
+	overflow: hidden;
+}
+
+#header-container {
+	position: relative;
 }
 
 #sidebar-container{
