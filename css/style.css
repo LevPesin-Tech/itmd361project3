@@ -20,7 +20,7 @@ body {
 }
 
 #big-header {
-	background-color: ##F08B1F;
+	background-color: #F08B1F;
 	height: 100px;
 	text-align: center;
 	clear: both;
@@ -83,4 +83,22 @@ footer {
   font: bold;
   font-size: 15px;
   bottom: 0;
+}
+
+#contact {
+	float: left;
+	width: 22.5%;
+	margin: 0 0 0 2.5%;
+}
+
+#education {
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+#work {
+	float: left;
+	width: 22.5%;
+	margin: 0 2.5% 0 0;
 }
