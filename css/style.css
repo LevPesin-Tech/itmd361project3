@@ -2,22 +2,21 @@ body {
 	background-color: #42F58A;
 }
 
-#interests {
-	float: left;
-	width: 22.5%
-	margin: 0 0 0 2.5%;
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
 
 #main {
-	float: left;
-	width: 45%;
-	margin: 0 2.5%;
+	float: left; 
+	width: 450px;
+	margin: 0 20px;
 }
 
-#links {
+#interests {
 	float: left;
-	width: 22.5%;
-	margin: 0 2.5% 0 0;
+	width: 250px;
+	margin: 0 20px 0 0;
 }
 
 #h2 {
