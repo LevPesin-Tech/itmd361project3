@@ -26,22 +26,9 @@ body {
 	clear: both;
 }
 
-#name {
-	font-size: 30px;
-    margin: auto;
-    position: absolute;
-    display:block;
-    margin-left: 15px;
-}
-
-.container{
-	width: 960px;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
 #header-container {
 	position: relative;
+	
 }
 
 #sidebar-container{
