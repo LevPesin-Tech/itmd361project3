@@ -2,6 +2,24 @@ body {
 	background-color: #42F58A;
 }
 
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main {
+	float: left; 
+	width: 650px;
+	margin: 0 20px;
+}
+
+#interests {
+	float: left;
+	width: 250px;
+	margin: 0 20px 0 0;
+}
+
+
 header {
 	height: 100px;
 	text-align: center;
@@ -61,11 +79,11 @@ header {
 footer {
   padding-top: 15px;
   padding-bottom: 20px;
-  height: 75px;
-  color:black;
+  height: 80px;
+  color: black;
   text-align: center;
   line-height: 10px;
-  clear:both;
+  clear: both;
   background-color: #C40A0A;
   width: 100%;
   font: bold;
