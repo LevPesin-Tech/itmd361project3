@@ -82,9 +82,12 @@ footer {
   height: 80px;
   color: black;
   text-align: center;
+  line-height: 10px;
   clear: both;
   background-color: #C40A0A;
   width: 100%;
   font: bold;
   font-size: 15px;
+  bottom: 0;
+  position: absolute;
 }
