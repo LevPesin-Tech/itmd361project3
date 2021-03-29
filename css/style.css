@@ -9,8 +9,9 @@ header {
 }
 
 .contain {
+	margin: 0 auto;
+	overflow: hidden;
 	width: 960px;
-	margin: auto;
 }
 
 #header-container {
