@@ -77,15 +77,11 @@ header {
 }
 
 footer {
-  padding-top: 15px;
-  padding-bottom: 20px;
-  height: 80px;
-  color: black;
   text-align: center;
-  line-height: 10px;
-  clear: both;
+  clear:both;
   background-color: #C40A0A;
-  width: 100%;
-  font: bold;
-  font-size: 15px;
+  margin-top: 2%;
+  color: black;
 }
+
+
