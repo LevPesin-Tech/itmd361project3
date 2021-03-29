@@ -26,6 +26,14 @@ body {
 	clear: both;
 }
 
+#name {
+	font-size: 30px;
+    margin: auto;
+    position: absolute;
+    display:block;
+    margin-left: 15px;
+}
+
 #header-container {
 	position: relative;
 }
