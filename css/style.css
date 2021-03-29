@@ -4,7 +4,6 @@ body {
 
 header {
 	height: 100px;
-	background: ##F08B1F;
 	text-align: center;
 	clear: both;
 }
@@ -12,11 +11,12 @@ header {
 .contain {
 	width: 960px;
 	margin: auto;
-	overflow: hidden;
 }
 
 #header-container {
 	position: relative;
+	background-color: ##F08B1F;
+	overflow: hidden;
 }
 
 #sidebar-container{
