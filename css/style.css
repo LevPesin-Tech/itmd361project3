@@ -103,16 +103,16 @@ footer {
 	margin: 0 2.5% 0 0;
 }
 
-h1 {
+#h1 {
 	font-family: 'Faster One', cursive;
 	font-weight: 400;
 }
 
-h2, h3, h4 {
+#h2, h3, h4 {
 	font-family: 'Bungee Inline', cursive;
 	font-weight: 400;
 }
 
-p {
+#p {
 	font-family: 'Merriweather', serif
 };
