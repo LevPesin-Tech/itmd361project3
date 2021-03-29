@@ -93,7 +93,7 @@ footer {
   color: black;
   text-align: center;
   line-height: 10px;
-  clear: left;
+  clear: both;
   background-color: #C40A0A;
   width: 100%;
   font: bold;
