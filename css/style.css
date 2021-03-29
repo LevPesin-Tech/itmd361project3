@@ -76,16 +76,12 @@ header {
 }
 
 footer {
-  padding-top: 15px;
-  padding-bottom: 20px;
-  height: 80px;
-  color: black;
-  text-align: center;
-  line-height: 10px;
-  clear: both;
-  background-color: #C40A0A;
-  width: 100%;
-  font: bold;
-  font-size: 15px;
-  bottom: 0;
+	background-color: #C40A0A;
+	height: 80px; 
+	line-height: 13px;
+	clear: both;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	text-align: center;
 }
