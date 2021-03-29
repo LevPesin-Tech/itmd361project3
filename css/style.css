@@ -2,6 +2,20 @@ body {
 	background-color: #42F58A;
 }
 
+h1 {
+	font-family: 'Faster One', cursive;
+	font-weight: 400;
+}
+
+h2, h3, h4 {
+	font-family: 'Bungee Inline', cursive;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
