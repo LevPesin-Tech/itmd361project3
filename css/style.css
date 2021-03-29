@@ -4,13 +4,14 @@ body {
 
 header {
 	height: 100px;
-	background-color: ##f08b1f;
+	background: ##F08B1F;
 	text-align: center;
 	clear: both;
 }
 
 .contain {
 	width: 960px;
+	margin: auto;
 	overflow: hidden;
 }
 
