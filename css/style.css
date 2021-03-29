@@ -17,7 +17,6 @@ header {
 #header-container {
 	position: relative;
 	background-color: ##F08B1F;
-	overflow: hidden;
 }
 
 #sidebar-container{
@@ -60,10 +59,12 @@ header {
 }
 
 footer {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   height: 75px;
   color:black;
   text-align: center;
+  line-height: 10px;
   clear:both;
   background-color: #C40A0A;
   width: 100%;
