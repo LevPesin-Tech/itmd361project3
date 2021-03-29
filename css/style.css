@@ -59,12 +59,10 @@ header {
 }
 
 footer {
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding: 15px;
   height: 75px;
   color:black;
   text-align: center;
-  line-height: 10px;
   clear:both;
   background-color: #C40A0A;
   width: 100%;
