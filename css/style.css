@@ -2,21 +2,22 @@ body {
 	background-color: #42F58A;
 }
 
-#wrapper {
-	width: 960px;
-	margin: 0 auto;
+#interests {
+	float: left;
+	width: 22.5%
+	margin: 0 0 0 2.5%;
 }
 
 #main {
-	float: left; 
-	width: 450px;
-	margin: 0 20px;
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
 }
 
-#interests {
+#links {
 	float: left;
-	width: 250px;
-	margin: 0 20px 0 0;
+	width: 22.5%;
+	margin: 0 2.5% 0 0;
 }
 
 #h2 {
@@ -92,7 +93,7 @@ footer {
   color: black;
   text-align: center;
   line-height: 10px;
-  clear: both;
+  clear: left;
   background-color: #C40A0A;
   width: 100%;
   font: bold;
