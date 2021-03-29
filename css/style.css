@@ -19,21 +19,15 @@ body {
 	margin: 0 20px 0 0;
 }
 
-header {
+#big-header {
+	background-color: ##F08B1F;
 	height: 100px;
 	text-align: center;
 	clear: both;
 }
 
-.contain {
-	margin: 0 auto;
-	overflow: hidden;
-	width: 960px;
-}
-
 #header-container {
 	position: relative;
-	background-color: ##F08B1F;
 }
 
 #sidebar-container{
