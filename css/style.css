@@ -80,6 +80,11 @@ p {
 	text-decoration: none;
 }
 
+#pobedka img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
 #sidebar ul li a:hover{
 	text-decoration: underline; 
 }
