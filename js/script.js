@@ -12,10 +12,26 @@ function intMap() {
 		animation: google.maps.Animation.DROP,
 	});
 	
-	const malor = new google.amp.Marker ({
+	const malor = new google.map.Marker({
 		position: {lat: 39.6953, lng: 3.0176},
 		map,
 		title: "Mallorca",
 		animation: google.maps.Animation.DROP,
 	});
+	
+	const cali = new google.map.Marker({
+		position: {lat: 33.6189, lng: -117.9298},
+		map,
+		title: "Newport Beach",
+		animation: google.maps.Animation.DROP,
+	});
+	
+	const abha = new google.map.Marker({
+		position: {lat: 43.2795, lng: 40.2706},
+		map,
+		title: "Gagra, Abkhazia",
+		animation: google.maps.Animation.DROP,
+	});
+	
+		
 	
