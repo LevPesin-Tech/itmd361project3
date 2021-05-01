@@ -32,6 +32,6 @@ function intMap() {
 		title: "Gagra, Abkhazia",
 		animation: google.maps.Animation.DROP,
 	});
-	
+}
 		
 	
