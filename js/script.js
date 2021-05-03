@@ -4,7 +4,7 @@ var el = document.getElementById('map');
 	var mapOptions = {
 		center: myLocation,
 		zoom: 6,
-		mapTypeId: google.maps.MapTypeId.hybrid,
+		mapTypeId: google.maps.MapTypeId.roadmap,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
