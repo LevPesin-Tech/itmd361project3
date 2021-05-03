@@ -16,6 +16,14 @@ p {
 	font-family: 'Merriweather', serif;
 }
 
+body{
+  background-color:#157998;
+}
+h1{
+  color:#fff;
+  text-align: center;
+}
+.bx-wrapper{max-width: 1024px!}
 
 
 #map {
