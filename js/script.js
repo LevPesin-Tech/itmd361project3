@@ -1,3 +1,10 @@
+
+$(document).ready(function(){
+      $('.slider').bxSlider({
+		  captions: true
+	  )};
+    });
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
@@ -28,10 +35,5 @@ function initMap() {
     animation: google.maps.Animation.DROP,
   });
 }
-$(document).ready(function(){
-      $('.slider').bxSlider({
-		  captions: true
-	  )};
-    });
 		
 	
