@@ -3,7 +3,7 @@ var map;
 function initMap() {
 	const map = new google.maps.Map(document.getElementById("map"), {
 		center: {lat: 52.5200, lng: 13.4050}, 
-		zoom: 3,
+		zoom: 2,
 	});
 	
 	const chel = new google.map.Marker({
@@ -15,7 +15,7 @@ function initMap() {
 	
 	const malor = new google.map.Marker({
 		position: {lat: 39.6953, lng: 3.0176},
-		map,
+		map: map
 		title: "Mallorca",
 		animation: google.maps.Animation.DROP,
 	});
