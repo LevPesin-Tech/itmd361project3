@@ -14,13 +14,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script>
-		$(function(){
-		  $('.bxslider').bxSlider({
-			mode: 'fade',
-			captions: true,
-			slideWidth: 600
-		  });
-		});
+		$(document).ready(function(){
+    $('.slider').bxSlider({
+      captions: true
+    });
+  });
   </scipt>
 	
   </head>
@@ -60,7 +58,7 @@
 		next shot, he has to gift 30 million subs. Of course, he missed.</p>
 		<img src="images/jerma.jpg" alt="jerma" width="350" height="200">
 	</section>
-	<div class="bxslider">
+	<div class="slider">
 		<div><img src="images/jerma.jpg" alt="jermaa"></div>
 		<div><img src="images/buck.jpg" alt="buck"></div>
 		<div><img src="images/moon.JPG" alt="moon"></div>
