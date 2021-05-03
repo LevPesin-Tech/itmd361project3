@@ -34,5 +34,6 @@ function initMap() {
 		animation: google.maps.Animation.DROP,
 	});
 }
+google.maps.event.addDomListener(window, 'load', initMap);
 		
 	
