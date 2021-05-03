@@ -12,6 +12,15 @@ function initMap() {
 		title: "Chelyabinsk",
 		animation: google.maps.Animation.DROP,
 	});
+	var myMap = new google.maps.Map(el, mapOptions);
+	
+	var marker = new google.maps.Marker({
+      position: {lat: 40, lng: 20},
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Test"
+      
+  });
 	
 	const malor = new google.map.Marker({
 		position: {lat: 39.6953, lng: 3.0176},
