@@ -16,6 +16,9 @@ p {
 	font-family: 'Merriweather', serif;
 }
 
+#bxslider {
+	align: center;
+}
 
 #map {
 	margin: auto;
