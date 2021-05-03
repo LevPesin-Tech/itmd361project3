@@ -7,28 +7,28 @@ function initMap() {
     position: { lat: 41.8906, lng: -87.6399 },
     map,
     title: "Chicago",
-    icon: "images/home.png",
+    icon: "images/pob.png",
     animation: google.maps.Animation.DROP,
   });
   const wyomingVisit = new google.maps.Marker({
     position: { lat: 42.9543, lng: -107.6443 },
     map,
     title: "Wyoming",
-    icon: "images/yellowstone.png",
+    icon: "images/pob.png",
     animation: google.maps.Animation.DROP,
   });
   const michiganVisit = new google.maps.Marker({
     position: { lat: 43.7871, lng: -84.7195 },
     map,
     title: "Michigan",
-    icon: "images/camp.png",
+    icon: "images/pob.png",
     animation: google.maps.Animation.DROP,
   });
   const wisconsinVisit = new google.maps.Marker({
     position: { lat: 44.7229, lng: -89.6151 },
     map,
     title: "Wisconsin",
-    icon: "images/waterpark.png",
+    icon: "images/pob.png",
     animation: google.maps.Animation.DROP,
   });
   const floridaVisit = new google.maps.Marker({
@@ -42,7 +42,7 @@ function initMap() {
     position: { lat: 34.4706, lng: -111.7550 },
     map,
     title: "Arizona",
-    icon: "images/grandcanyon.png",
+    icon: "images/pob.png",
     animation: google.maps.Animation.DROP,
   });
 
