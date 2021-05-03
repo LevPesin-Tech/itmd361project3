@@ -32,6 +32,15 @@ function intMap() {
 		title: "Gagra, Abkhazia",
 		animation: google.maps.Animation.DROP,
 	});
+	
+	const info = '<h1>Testing</h1>';
+    const infoWindow = new google.maps.InfoWindow({
+        content: info,
+    })
+	
+	google.maps.event.addListener("click", () => {
+		infoWindow.open(map, chel);
+	});
 }
 		
 	
