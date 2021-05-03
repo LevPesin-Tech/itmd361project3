@@ -2,7 +2,8 @@ var map;
 
 function initMap() {
 	const map = new google.maps.Map(document.getElementById("map"), {
-		center: {lat: 52.5200, lng: 13.4050}, zoom: 3,
+		center: {lat: 52.5200, lng: 13.4050}, 
+		zoom: 3,
 	});
 	
 	const chel = new google.map.Marker({
@@ -38,7 +39,7 @@ function initMap() {
         content: info,
     })
 	
-	google.maps.event.addListener("click", () => {
+	chel.addListener("click", () => {
 		infoWindow.open(map, chel);
 	});
 }
