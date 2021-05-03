@@ -39,36 +39,4 @@ function initMap() {
     title: "Arizona",
     animation: google.maps.Animation.DROP,
   });
-
-  const wyomingInfo = new google.maps.InfoWindow({
-    content: '<div class="mapinfo"><h2>Wyoming</h2><h4>Visited Yellowstone National Park</h4><p>Drove by car</p></div>',
-  });
-  const michiganInfo = new google.maps.InfoWindow({
-    content: '<div class="mapinfo"><h2>Michigan</h2><h4>Went camping</h4><p>Drove by car</p></div>',
-  });
-  const wisconsinInfo = new google.maps.InfoWindow({
-    content: '<div class="mapinfo"><h2>Wisconsin</h2><h4>Visited a Waterpark</h4><p>Drove by car</p></div>',
-  });
-  const floridaInfo = new google.maps.InfoWindow({
-    content: '<div class="mapinfo"><h2>Florida</h2><h4>Visited the beach</h4><p>Flew by Plane</p></div>',
-  });
-  const arizonaInfo = new google.maps.InfoWindow({
-    content: '<div class="mapinfo"><h2>Arizona</h2><h4>Visited Grand Canyon National Park</h4><p>Flew by Plane</p></div>',
-  });
-
-  wyomingVisit.addListener("click", () => {
-    wyomingInfo.open(map, wyomingVisit);
-  });
-  michiganVisit.addListener("click", () => {
-    michiganInfo.open(map, michiganVisit);
-  });
-  wisconsinVisit.addListener("click", () => {
-    wisconsinInfo.open(map, wisconsinVisit);
-  });
-  floridaVisit.addListener("click", () => {
-    floridaInfo.open(map, floridaVisit);
-  });
-  arizonaVisit.addListener("click", () => {
-    arizonaInfo.open(map, arizonaVisit);
-  });
 }
