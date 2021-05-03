@@ -15,7 +15,7 @@ function initMap() {
 	
 	const malor = new google.map.Marker({
 		position: {lat: 39.6953, lng: 3.0176},
-		map: map
+		map: map,
 		title: "Mallorca",
 		animation: google.maps.Animation.DROP,
 	});
