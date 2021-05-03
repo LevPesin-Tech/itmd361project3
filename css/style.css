@@ -19,9 +19,17 @@ p {
 
 
 #map {
-	margin: auto;
-	height: 800px;
+	margin: 30 px auto;
+	height: 500px;
+	width: 700px;
+}
+
+#wrappermap {
 	width: 800px;
+	height: 700px;
+	background-color: #c00;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 #wrapper {
