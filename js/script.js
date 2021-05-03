@@ -29,7 +29,9 @@ function initMap() {
   });
 }
 $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({
+		  captions: true
+	  )};
     });
 		
 	
