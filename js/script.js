@@ -3,7 +3,7 @@ var el = document.getElementById('map');
 	var myLocation = new google.maps.LatLng(52.5200, 13.4050);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 2,
+		zoom: 6,
 		mapTypeId: google.maps.MapTypeId.hybrid,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
