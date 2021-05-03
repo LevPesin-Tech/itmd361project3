@@ -16,8 +16,8 @@ var el = document.getElementById('map');
 	var chel = new google.maps.Marker({
       position: {lat: 55.1644, lng: 61.4358},
       map: myMap,
-	  title: "Chelyabinsk",
-      animation: google.maps.Animation.DROP
+      animation: google.maps.Animation.DROP,
+	  title: "Chelyabinsk"
     });
 	
 	var malor = new google.maps.Marker({
