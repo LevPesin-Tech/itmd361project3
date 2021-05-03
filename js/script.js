@@ -1,7 +1,7 @@
 var map;
 
 function intMap() {
-	map = new google.maps.Map(document.getElementById("map"), {
+	const map = new google.maps.Map(document.getElementById("map"), {
 		center: {lat: 52.5200, lng: 13.4050}, zoom: 3,
 	});
 	
@@ -33,7 +33,5 @@ function intMap() {
 		animation: google.maps.Animation.DROP,
 	});
 }
-
-google.maps.event.addDomListener(window, 'load', initMap);
 		
 	
