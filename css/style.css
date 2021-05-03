@@ -19,9 +19,9 @@ p {
 
 
 #map {
-	margin: 0 auto;
+	margin: auto;
 	height: 800px;
-	width: 600px;
+	width: 800px;
 }
 
 #wrapper {

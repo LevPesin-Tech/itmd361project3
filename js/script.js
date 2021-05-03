@@ -33,15 +33,6 @@ function initMap() {
 		title: "Gagra, Abkhazia",
 		animation: google.maps.Animation.DROP,
 	});
-	
-	const info = '<div class="mapinfo"><h1>Testing</h1></div>';
-    const infoWindow = new google.maps.InfoWindow({
-        content: info,
-    });
-	
-	chel.addListener("click", () => {
-		infoWindow.open(map, chel);
-	});
 }
 		
 	
