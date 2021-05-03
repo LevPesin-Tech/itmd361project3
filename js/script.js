@@ -1,5 +1,6 @@
 function initMap(){
 var el = document.getElementById('map');
+alert('it works');
 	var myLocation = new google.maps.LatLng(52.5200, 13.4050);
 	var mapOptions = {
 		center: myLocation,
