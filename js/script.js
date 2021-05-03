@@ -28,5 +28,13 @@ function initMap() {
     animation: google.maps.Animation.DROP,
   });
 }
+
+$(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 300
+  });
+});
 		
 	
