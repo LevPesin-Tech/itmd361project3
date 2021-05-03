@@ -1,42 +1,32 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: { lat: 39.6759, lng: -101.9390 },
+    center: { lat: 52.5200, lng: 13.4050 },
   });
-  const home = new google.maps.Marker({
-    position: { lat: 41.8906, lng: -87.6399 },
+  const chel = new google.maps.Marker({
+    position: { lat: 55.1644, lng: 61.4358 },
     map,
-    title: "Chicago",
+    title: "Chelyabinsk",
     animation: google.maps.Animation.DROP,
   });
-  const wyomingVisit = new google.maps.Marker({
-    position: { lat: 42.9543, lng: -107.6443 },
+  const malor = new google.maps.Marker({
+    position: { lat: 39.6953, lng: 3.0176 },
     map,
-    title: "Wyoming",
+    title: "Mallorca",
     animation: google.maps.Animation.DROP,
   });
-  const michiganVisit = new google.maps.Marker({
-    position: { lat: 43.7871, lng: -84.7195 },
+  const cali = new google.maps.Marker({
+    position: { lat: 44.7229, lng: -117.9298 },
     map,
-    title: "Michigan",
+    title: "Newport Beach",
     animation: google.maps.Animation.DROP,
   });
-  const wisconsinVisit = new google.maps.Marker({
-    position: { lat: 44.7229, lng: -89.6151 },
+  const abha = new google.maps.Marker({
+    position: { lat: 43.2795, lng: 40.2706 },
     map,
-    title: "Wisconsin",
-    animation: google.maps.Animation.DROP,
-  });
-  const floridaVisit = new google.maps.Marker({
-    position: { lat: 27.7169, lng: -81.6192 },
-    map,
-    title: "Florida",
-    animation: google.maps.Animation.DROP,
-  });
-  const arizonaVisit = new google.maps.Marker({
-    position: { lat: 34.4706, lng: -111.7550 },
-    map,
-    title: "Arizona",
+    title: "Gagra, Abkhazia",
     animation: google.maps.Animation.DROP,
   });
 }
+		
+	
