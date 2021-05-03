@@ -17,7 +17,8 @@ p {
 }
 
 #bxslider {
-	align: center;
+	margin: auto;
+	overflow: hidden;
 }
 
 #map {
