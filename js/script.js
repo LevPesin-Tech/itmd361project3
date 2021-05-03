@@ -28,5 +28,8 @@ function initMap() {
     animation: google.maps.Animation.DROP,
   });
 }
+$(document).ready(function(){
+      $('.slider').bxSlider();
+    });
 		
 	
